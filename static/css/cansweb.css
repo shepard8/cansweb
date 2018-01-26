@@ -1,0 +1,130 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D2DAD8;
+}
+
+h1 {
+  font-size: 210%;
+  color: #879592;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding: 1em;
+}
+
+a, a:visited {
+  color: #658D85;
+}
+
+a:hover {
+  color: #A5ADA5;
+}
+
+a:active {
+  color: black;
+}
+
+.content h2 {
+  font-family: cursive;
+  font-size: 180%;
+  border-bottom: dashed #A5C2BC 2px;
+  color: #55726C;
+  padding-right: 3em;
+  padding-left: 1em;
+  margin: 1em;
+}
+
+.menu {
+  display: inline-block;
+  width: 17em;
+  float: left;
+  height: 100%;
+  text-align: center;
+}
+
+.menu h1 {
+  color: white;
+  text-align: center;
+  padding: 0;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+  font-size: 300%;
+  font-family: fantasy;
+  font-variant: small-caps;
+  border-bottom: solid white 1px;
+  margin-bottom: 1ex;
+}
+
+.menu h2 {
+  color: #677572;
+}
+
+.menu li {
+  text-align: left;
+}
+
+.menu h2 {
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.menu li li {
+  display: inline;
+  padding-right: 0.2em;
+}
+
+.menu li li a {
+}
+
+.menu p {
+  text-align: left;
+  margin: 1ex;
+}
+
+.content {
+  display: inline-block;
+  width: calc(100% - 20em);
+  float: left;
+  height: 100%;
+  background-color: white;
+  margin-bottom: 5ex;
+  margin-top: 1ex;
+  padding: 1em;
+}
+
+dl {
+  margin-left: 2em;
+}
+
+dl dt {
+  display: block;
+  float: left;
+  width: 10em;
+  height: 100%;
+  clear: left;
+}
+
+dd:empty:after {
+  color: #DDDDDD;
+  content: "(empty)";
+}
+
+dl dd {
+  display: block;
+  height: 100%;
+  width: (100% - 10em);
+  margin-left: 10em;
+  margin-bottom: 1ex;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+}
+
